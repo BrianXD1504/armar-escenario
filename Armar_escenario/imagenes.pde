@@ -13,6 +13,12 @@ class Game {
   Game() {
     loadImages();
     createClouds();
+    playerX = 50;
+    playerY = 200;
+    enemyX = 600;
+    enemyY = 200;
+    enemySpeed = 2;
+    direction = 1;
   }
 
   void draw() {
